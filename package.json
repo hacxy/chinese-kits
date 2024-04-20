@@ -23,9 +23,12 @@
     "dist"
   ],
   "keywords": [
-    "template",
     "javascript library"
   ],
+  "homepage": "https://github.com/hacxy/chinese-ts",
+  "bugs": {
+    "url": "https://github.com/hacxy/chinese-ts/issues"
+  },
   "author": "",
   "license": "MIT",
   "devDependencies": {
