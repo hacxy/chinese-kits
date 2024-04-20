@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.2](https://github.com/hacxy/chinese-ts/compare/v1.1.1...v1.1.2) (2024-04-20)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* 调整打包模块为cjs, esm, iife ([2c20a08](https://github.com/hacxy/chinese-ts/commit/2c20a08aa185a5ccc888bec54611d8765f5b0239))
+
 ### [1.1.1](https://github.com/hacxy/chinese-ts/compare/v1.1.0...v1.1.1) (2024-04-20)
 
 
