@@ -36,6 +36,14 @@ yarn add chinese-ts
 cnpm install chinese-ts
 ```
 
+## 使用
+
+### CDN 方式
+
+### ESM 方式
+
+### CJS 方式
+
 ## 计划与支持
 
 ### 字符串
@@ -63,4 +71,4 @@ cnpm install chinese-ts
 
 ## 协议
 
-[MIT](./LICENSE)
+[MIT](https://github.com/hacxy/chinese-ts/blob/main/LICENSE)

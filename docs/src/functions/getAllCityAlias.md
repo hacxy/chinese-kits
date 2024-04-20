@@ -27,4 +27,4 @@ getCityAllAbbreviation() // [ '京', '粤', '闽', '浙', '沪', '鄂', '湘', '
 
 ## 查看源码
 
-[city/index.ts:31](https://github.com/hacxy/chinese-ts/blob/32acbdf853347abfa1bfdabc5f0a01b2903b6758/src/city/index.ts#L31)
+city/index.ts:31
