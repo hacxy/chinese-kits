@@ -36,9 +36,36 @@ cnpm install chinese-ts
 
 ### CDN 方式
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script src="https://unpkg.com/chinese-ts/dist/index.iife.js"></script>
+    <script>
+      CHINESE_TS.getCityAlias('北京'); // => '京'
+    </script>
+  </body>
+</html>
+```
+
 ### ESM 方式
 
+```js
+import { getCityAlias } from 'chinese-ts';
+getCityAlias('北京'); // => '京'
+```
+
 ### CJS 方式
+
+```js
+const { getCityAlias } = require('chinese-ts');
+getCityAlias('北京'); // => '京'
+```
 
 ## 计划与支持
 
