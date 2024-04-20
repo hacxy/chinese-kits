@@ -18,4 +18,4 @@
 
 ## 查看源码
 
-lunar/types.ts:1
+[lunar/types.ts:1](https://github.com/hacxy/chinese-ts/blob/32acbdf853347abfa1bfdabc5f0a01b2903b6758/src/lunar/types.ts#L1)

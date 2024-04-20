@@ -26,4 +26,4 @@
 
 ## 查看源码
 
-string/index.ts:29
+[string/index.ts:29](https://github.com/hacxy/chinese-ts/blob/32acbdf853347abfa1bfdabc5f0a01b2903b6758/src/string/index.ts#L29)
