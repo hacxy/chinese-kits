@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.1](https://github.com/hacxy/chinese-ts/compare/v1.1.0...v1.1.1) (2024-04-20)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* 修复umd模块入口文件指向错误 ([6eded50](https://github.com/hacxy/chinese-ts/commit/6eded50aeeb44ece4b8fdbb81a5220592f1537b4))
+
 ## 1.1.0 (2024-04-20)
 
 
