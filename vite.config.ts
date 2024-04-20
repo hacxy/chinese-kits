@@ -1,0 +1,20 @@
+import path from 'node:path';
+import { defineConfig } from 'vite';
+import dts from 'vite-plugin-dts';
+
+export default defineConfig({
+  build: {
+    emptyOutDir: true,
+    lib: {
+      entry: './src/index.ts',
+      name: 'CHINESE_TS',
+      fileName: 'index'
+    }
+  },
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, './src')
+    }
+  },
+  plugins: [dts()]
+});
