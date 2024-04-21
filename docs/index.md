@@ -16,7 +16,7 @@ hero:
 
     - theme: alt
       text: Github
-      link: https://github.com/hacxy/library-complete-templat
+      link: https://github.com/hacxy/chinese-ts
 
 features:
   - icon: 📦

@@ -2,7 +2,7 @@
 
 🇨🇳 中国的 javascript 工具集, 旨在帮助中国人更方便更快捷的处理国内特有需求的 javascript 工具库.
 
-这个库名称的由来: **chinese** 可以译为: '中国的', 而 **ts** 即表示 toolset 的缩写, 同时还因为它是使用 typescript 开发的.
+这个库名称的由来: **chinese** 可以译为: '中国的', **ts** 即 toolset 的缩写, 同时还因为它是使用 typescript 开发的.
 
 [查阅文档](https://chinese-ts.hacxy.cn)
 
