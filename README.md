@@ -84,7 +84,7 @@ getCityAlias('北京'); // => '京'
 
 ### 农历
 
-数据来源于[香港大学天文台](https://www.hko.gov.hk/tc/gts/time/conversion1_text.htm#)(1900-2100 年), 相关方法依赖于第三方库 [calendar](https://github.com/jjonline/calendar.js)
+数据来源于[香港天文台](https://www.hko.gov.hk/tc/gts/time/conversion1_text.htm#)(1900-2100 年), 相关方法依赖于第三方库 [calendar](https://github.com/jjonline/calendar.js)
 
 | 计划                             | 支持 |
 | -------------------------------- | ---- |
