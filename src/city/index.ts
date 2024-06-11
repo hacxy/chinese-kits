@@ -13,7 +13,9 @@ import { cityData } from '@/constants';
  * ```
  */
 export const getCityAlias = (name: string) => {
-  const cityInfo = cityData.find((item) => item.name === name || item.enName === name);
+  const cityInfo = cityData.find(
+    (item) => item.name === name || item.enName.toLocaleLowerCase() === name.toLocaleLowerCase()
+  );
   return cityInfo?.alias;
 };
 
