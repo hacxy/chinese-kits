@@ -1,5 +1,4 @@
 import { cityData } from '@/constants';
-
 /**
  * @name 根据英文或中文名称获取省份的简称
  * @group 省份
