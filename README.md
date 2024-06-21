@@ -1,35 +1,33 @@
-# chinese-ts
+# chinese-kit
 
-🇨🇳 中国的 javascript 工具集, 旨在帮助中国人更方便更快捷的处理国内特有需求的 javascript 工具库
+中国 Javascript 工具集, 旨在帮助国人更方便更快捷的处理国内特有需求的 Javascript 工具库
 
-这个库名称的由来: **chinese** 可以译为: '中国的', **ts** 即 toolset 的缩写, 同时还因为它是使用 typescript 开发的.
-
-[查阅文档](https://chinese-ts.hacxy.cn)
+[查阅文档](https://chinese-ts.hacxy.cn) 了解更多用法
 
 ## 安装
 
 - 使用 npm 安装
 
 ```bash
-npm install chinese-ts
+npm install chinese-kit
 ```
 
 - 使用 pnpm 安装
 
 ```bash
-pnpm add chinese-ts
+pnpm add chinese-kit
 ```
 
 - 使用 yarn 安装
 
 ```bash
-yarn add chinese-ts
+yarn add chinese-kit
 ```
 
 - 国内还可以使用 cnpm 安装
 
 ```bash
-cnpm install chinese-ts
+cnpm install chinese-kit
 ```
 
 ## 使用
@@ -37,7 +35,7 @@ cnpm install chinese-ts
 ### CDN 方式
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -45,7 +43,7 @@ cnpm install chinese-ts
     <title>Document</title>
   </head>
   <body>
-    <script src="https://unpkg.com/chinese-ts/dist/index.iife.js"></script>
+    <script src="https://unpkg.com/chinese-kit/dist/index.iife.js"></script>
     <script>
       CHINESE_TS.getCityAlias('北京'); // => '京'
     </script>
@@ -56,14 +54,14 @@ cnpm install chinese-ts
 ### ESM 方式
 
 ```js
-import { getCityAlias } from 'chinese-ts';
+import { getCityAlias } from 'chinese-kit';
 getCityAlias('北京'); // => '京'
 ```
 
 ### CJS 方式
 
 ```js
-const { getCityAlias } = require('chinese-ts');
+const { getCityAlias } = require('chinese-kit');
 getCityAlias('北京'); // => '京'
 ```
 
@@ -100,6 +98,6 @@ getCityAlias('北京'); // => '京'
 | 根据省份名称获取简称 | ✅   |
 | 获取所有省份名称简称 | ✅   |
 
-## 协议
+## 开源协议
 
 [MIT](https://github.com/hacxy/chinese-ts/blob/main/LICENSE)

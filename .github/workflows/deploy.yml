@@ -36,7 +36,7 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
           password: ${{ secrets.SSH_PASSWORD }}
           source: 'docs/.vitepress/dist/'
-          target: '/${{secrets.SSH_USERNAME}}/Projects/.chinese-ts_temp/'
+          target: '/${{secrets.SSH_USERNAME}}/Projects/.chinese-kit_temp/'
           rm: true
           strip_components: 3
 
@@ -47,7 +47,7 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
           password: ${{ secrets.SSH_PASSWORD }}
           script: |
-            rm -rf /${{secrets.SSH_USERNAME}}/Projects/chinese-ts-docs/*
-            mkdir -p /${{secrets.SSH_USERNAME}}/Projects/chinese-ts-docs/
-            cp -rf /${{secrets.SSH_USERNAME}}/Projects/.chinese-ts_temp/*  /${{secrets.SSH_USERNAME}}/Projects/chinese-ts-docs/
+            rm -rf /${{secrets.SSH_USERNAME}}/Projects/chinese-kit-docs/*
+            mkdir -p /${{secrets.SSH_USERNAME}}/Projects/chinese-kit-docs/
+            cp -rf /${{secrets.SSH_USERNAME}}/Projects/.chinese-kit_temp/*  /${{secrets.SSH_USERNAME}}/Projects/chinese-kit-docs/
       - run: echo "项目部署完成！"
