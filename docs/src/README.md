@@ -2,7 +2,7 @@
 
 ***
 
-# chinese-kit
+# chinese-kits
 
 中国 Javascript 工具集, 旨在帮助国人更方便更快捷的处理国内特有需求的 Javascript 工具库
 
@@ -13,25 +13,25 @@
 - 使用 npm 安装
 
 ```bash
-npm install chinese-kit
+npm install chinese-kits
 ```
 
 - 使用 pnpm 安装
 
 ```bash
-pnpm add chinese-kit
+pnpm add chinese-kits
 ```
 
 - 使用 yarn 安装
 
 ```bash
-yarn add chinese-kit
+yarn add chinese-kits
 ```
 
 - 国内还可以使用 cnpm 安装
 
 ```bash
-cnpm install chinese-kit
+cnpm install chinese-kits
 ```
 
 ## 使用
@@ -39,7 +39,7 @@ cnpm install chinese-kit
 ### CDN 方式
 
 ```html
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -47,7 +47,7 @@ cnpm install chinese-kit
     <title>Document</title>
   </head>
   <body>
-    <script src="https://unpkg.com/chinese-kit/dist/index.iife.js"></script>
+    <script src="https://unpkg.com/chinese-kits/dist/index.iife.js"></script>
     <script>
       CHINESE_TS.getCityAlias('北京'); // => '京'
     </script>
@@ -58,14 +58,14 @@ cnpm install chinese-kit
 ### ESM 方式
 
 ```js
-import { getCityAlias } from 'chinese-kit';
+import { getCityAlias } from 'chinese-kits';
 getCityAlias('北京'); // => '京'
 ```
 
 ### CJS 方式
 
 ```js
-const { getCityAlias } = require('chinese-kit');
+const { getCityAlias } = require('chinese-kits');
 getCityAlias('北京'); // => '京'
 ```
 

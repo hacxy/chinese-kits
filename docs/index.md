@@ -2,7 +2,7 @@
 layout: home
 title: Home
 hero:
-  name: Chinese Kit
+  name: Chinese Kits
   text: Javascript 工具集
   tagline: 旨在帮助中国人更方便更快捷的处理国内特有需求的 Javascript 工具库
   actions:
@@ -16,7 +16,7 @@ hero:
 
     - theme: alt
       text: Github
-      link: https://github.com/hacxy/chinese-ts
+      link: https://github.com/hacxy/chinese-kits
 
 features:
   - icon: 📦

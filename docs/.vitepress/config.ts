@@ -14,7 +14,7 @@ export default defineConfig({
       label: '简体中文',
       lang: 'zh',
       dir: '/',
-      title: 'chinese-kit',
+      title: 'chinese-kits',
       description: '旨在帮助中国人更方便更快捷的处理国内特有需求的 Javascript 工具库'
     }
   },
@@ -38,7 +38,7 @@ export default defineConfig({
     socialLinks: [
       {
         icon: 'github',
-        link: 'https://github.com/hacxy/chinese-kit'
+        link: 'https://github.com/hacxy/chinese-kits'
       }
     ],
     search: {
