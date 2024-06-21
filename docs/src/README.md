@@ -1,4 +1,4 @@
-**chinese-kit** • Readme \| [API](globals.md)
+**chinese-kits** • Readme \| [API](globals.md)
 
 ***
 

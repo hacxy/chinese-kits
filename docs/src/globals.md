@@ -1,8 +1,8 @@
-**chinese-kit** • [Readme](README.md) \| API
+**chinese-kits** • [Readme](README.md) \| API
 
 ***
 
-# chinese-kit
+# chinese-kits
 
 ## 类型别名
 
