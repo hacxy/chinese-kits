@@ -1,4 +1,4 @@
-**chinese-ts** • [Readme](../README.md) \| [API](../globals.md)
+**chinese-kit** • [Readme](../README.md) \| [API](../globals.md)
 
 ***
 
@@ -27,4 +27,4 @@ getTodayLunarDate(); // { lunarYear: 2023, lunarMonth: 1, lunarDay: 1 }
 
 ## 查看源码
 
-lunar/index.ts:14
+[lunar/index.ts:14](https://github.com/hacxy/chinese-kit/blob/49e6f8f01f8481c0a00e21902b1dd967b6160bdd/src/lunar/index.ts#L14)

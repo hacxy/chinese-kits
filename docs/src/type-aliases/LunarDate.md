@@ -1,4 +1,4 @@
-**chinese-ts** • [Readme](../README.md) \| [API](../globals.md)
+**chinese-kit** • [Readme](../README.md) \| [API](../globals.md)
 
 ***
 
@@ -18,4 +18,4 @@
 
 ## 查看源码
 
-lunar/types.ts:1
+[lunar/types.ts:1](https://github.com/hacxy/chinese-kit/blob/49e6f8f01f8481c0a00e21902b1dd967b6160bdd/src/lunar/types.ts#L1)

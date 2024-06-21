@@ -2,9 +2,9 @@
 layout: home
 title: Home
 hero:
-  name: chinese-ts
-  text: 中国 javascript 工具集
-  tagline: 旨在帮助中国人更方便更快捷的处理国内特有需求的 javascript 工具库
+  name: Chinese Kit
+  text: Javascript 工具集
+  tagline: 旨在帮助中国人更方便更快捷的处理国内特有需求的 Javascript 工具库
   actions:
     - theme: brand
       text: 指南

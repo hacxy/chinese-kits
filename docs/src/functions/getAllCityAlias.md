@@ -1,4 +1,4 @@
-**chinese-ts** • [Readme](../README.md) \| [API](../globals.md)
+**chinese-kit** • [Readme](../README.md) \| [API](../globals.md)
 
 ***
 
@@ -27,4 +27,4 @@ getCityAllAbbreviation() // [ '京', '粤', '闽', '浙', '沪', '鄂', '湘', '
 
 ## 查看源码
 
-city/index.ts:31
+[city/index.ts:32](https://github.com/hacxy/chinese-kit/blob/49e6f8f01f8481c0a00e21902b1dd967b6160bdd/src/city/index.ts#L32)

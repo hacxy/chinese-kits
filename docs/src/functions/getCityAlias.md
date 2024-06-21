@@ -1,4 +1,4 @@
-**chinese-ts** • [Readme](../README.md) \| [API](../globals.md)
+**chinese-kit** • [Readme](../README.md) \| [API](../globals.md)
 
 ***
 
@@ -35,4 +35,4 @@ getCityAbbreviation('Hubei') // 鄂
 
 ## 查看源码
 
-city/index.ts:16
+[city/index.ts:15](https://github.com/hacxy/chinese-kit/blob/49e6f8f01f8481c0a00e21902b1dd967b6160bdd/src/city/index.ts#L15)

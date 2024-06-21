@@ -1,4 +1,4 @@
-**chinese-ts** • [Readme](../README.md) \| [API](../globals.md)
+**chinese-kit** • [Readme](../README.md) \| [API](../globals.md)
 
 ***
 
@@ -33,4 +33,4 @@ getLunarDate(new Date('2024-04-21')) // { lunarYear: 2024, lunarMonth: 3, lunarD
 
 ## 查看源码
 
-lunar/index.ts:44
+[lunar/index.ts:44](https://github.com/hacxy/chinese-kit/blob/49e6f8f01f8481c0a00e21902b1dd967b6160bdd/src/lunar/index.ts#L44)

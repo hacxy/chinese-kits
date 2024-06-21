@@ -3,7 +3,7 @@ import pkg from '../../package.json';
 import navigation from './navigation.json';
 
 export default defineConfig({
-  description: '旨在帮助中国人更方便更快捷的处理国内特有需求的 javascript 工具库',
+  description: '旨在帮助中国人更方便更快捷的处理国内特有需求的 Javascript 工具库',
   base: '/',
   appearance: 'dark',
   markdown: {
@@ -14,8 +14,8 @@ export default defineConfig({
       label: '简体中文',
       lang: 'zh',
       dir: '/',
-      title: 'chinese-ts',
-      description: '旨在帮助中国人更方便更快捷的处理国内特有需求的 javascript 工具库'
+      title: 'chinese-kit',
+      description: '旨在帮助中国人更方便更快捷的处理国内特有需求的 Javascript 工具库'
     }
   },
   lastUpdated: true,
@@ -38,7 +38,7 @@ export default defineConfig({
     socialLinks: [
       {
         icon: 'github',
-        link: 'https://github.com/hacxy/library-complete-template'
+        link: 'https://github.com/hacxy/chinese-kit'
       }
     ],
     search: {
