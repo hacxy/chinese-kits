@@ -37,11 +37,14 @@
     "@types/node": "^20.12.7",
     "@vitest/ui": "^1.5.0",
     "concurrently": "^8.2.2",
+    "dayjs": "^1.11.11",
     "dotenv-cli": "^7.2.1",
     "eslint": "^8.56.0",
     "globals": "^15.0.0",
+    "js-calendar-converter": "^0.0.6",
     "oh-my-live2d": "^0.16.1",
     "release-it": "^15.5.1",
+    "tianjie": "^0.5.1",
     "typedoc": "0.25.13",
     "typedoc-plugin-markdown": "4.0.0-next.55",
     "typescript": "^5.4.5",
@@ -50,7 +53,6 @@
     "vite-plugin-dts": "^3.3.1",
     "vitepress": "1.1.0",
     "vitest": "^1.5.0",
-    "vue": "^3.3.4",
-    "js-calendar-converter": "^0.0.6"
+    "vue": "^3.3.4"
   }
 }

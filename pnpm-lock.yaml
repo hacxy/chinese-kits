@@ -23,6 +23,9 @@ importers:
       concurrently:
         specifier: ^8.2.2
         version: 8.2.2
+      dayjs:
+        specifier: ^1.11.11
+        version: 1.11.11
       dotenv-cli:
         specifier: ^7.2.1
         version: 7.4.1
@@ -41,6 +44,9 @@ importers:
       release-it:
         specifier: ^15.5.1
         version: 15.11.0
+      tianjie:
+        specifier: ^0.5.1
+        version: 0.5.1
       typedoc:
         specifier: 0.25.13
         version: 0.25.13(typescript@5.4.5)
@@ -1250,6 +1256,9 @@ packages:
 
   dateformat@3.0.3:
     resolution: {integrity: sha512-jyCETtSl3VMZMWeRo7iY1FL19ges1t55hMo5yaam4Jrsm5EPL89UQkoQRyiI+Yf4k8r2ZpdngkV8hr1lIdjb3Q==}
+
+  dayjs@1.11.11:
+    resolution: {integrity: sha512-okzr3f11N6WuqYtZSvm+F776mB41wRZMhKP+hc34YdW+KmtYYK9iqvHSwo2k9FEH3fhGXvOPV6yz2IcSrfRUDg==}
 
   de-indent@1.0.2:
     resolution: {integrity: sha512-e/1zu3xH5MQryN2zdVaF0OrdNLUbvWxzMbi+iNA6Bky7l1RoP8a2fIbRocyHclXt/arDrrR6lL3TqFD9pMQTsg==}
@@ -2986,6 +2995,9 @@ packages:
 
   through@2.3.8:
     resolution: {integrity: sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg==}
+
+  tianjie@0.5.1:
+    resolution: {integrity: sha512-vbc76qvpA3f035fLVnsSCm9rW9qqhqShi1r3tYbkY7du4+gEf9b+XRqb0j2ZhXZFNy0XelMXRdUgKlYbupdCIQ==}
 
   tinybench@2.7.0:
     resolution: {integrity: sha512-Qgayeb106x2o4hNzNjsZEfFziw8IbKqtbXBjVh7VIZfBxfD5M4gWtpyx5+YTae2gJ6Y6Dz/KLepiv16RFeQWNA==}
@@ -4737,6 +4749,8 @@ snapshots:
       '@babel/runtime': 7.24.4
 
   dateformat@3.0.3: {}
+
+  dayjs@1.11.11: {}
 
   de-indent@1.0.2: {}
 
@@ -6624,6 +6638,8 @@ snapshots:
       readable-stream: 3.6.2
 
   through@2.3.8: {}
+
+  tianjie@0.5.1: {}
 
   tinybench@2.7.0: {}
 

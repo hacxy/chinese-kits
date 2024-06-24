@@ -20,10 +20,6 @@
 
 `boolean`
 
-## 函数名称
-
-判断是否为中国手机号
-
 ## 查看源码
 
-[string/index.ts:29](https://github.com/hacxy/chinese-kit/blob/49e6f8f01f8481c0a00e21902b1dd967b6160bdd/src/string/index.ts#L29)
+[string/index.ts:29](https://github.com/hacxy/chinese-kits/blob/29909c4ad8eb6617724f792e718a234cb4c5c5b7/src/string/index.ts#L29)

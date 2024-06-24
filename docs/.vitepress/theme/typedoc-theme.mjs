@@ -26,13 +26,15 @@ const handleNavigation = (navigation = []) => {
 export function load(app) {
   app.renderer.markdownHooks.on('content.begin', (model) => {
     const nameInfo = model.page.model.signatures?.[0]?.comment?.blockTags?.find((item) => item.tag === '@name');
+    const finalInfo = model.page.model.signatures?.[0]?.comment?.blockTags?.filter((item) => item.tag !== '@name');
+
+    if (finalInfo) model.page.model.signatures[0].comment.blockTags = finalInfo;
     const name = nameInfo?.content?.[0]?.text;
     return name ? `### ${name}` : '';
   });
 
   app.renderer.on(MarkdownPageEvent.END, (event) => {
     event.contents = event.contents.replace('Example', '示例');
-    event.contents = event.contents.replace('Name', '函数名称');
     event.contents = event.contents.replace('Signature', '函数签名');
   });
 
