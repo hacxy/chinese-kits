@@ -13,8 +13,6 @@
 
 - [getDateDiff](functions/getDateDiff.md)
 - [getLunarDate](functions/getLunarDate.md)
-- [getTodayDateDiff](functions/getTodayDateDiff.md)
-- [getTodayLunarDate](functions/getTodayLunarDate.md)
 
 ## 字符串
 

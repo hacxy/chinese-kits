@@ -1,6 +1,7 @@
-import { getLunarDate, isHolidays } from '../dist/index.js';
-console.log(getLunarDate(new Date()));
+import { getLunarDate, isHolidays, getDateDiff } from '../dist/index.js';
+console.log(getLunarDate());
 console.log(isHolidays());
+console.log(getDateDiff());
 
 // console.log(getTodayLunarDate());
 // console.log(getCityAlias('天津'));

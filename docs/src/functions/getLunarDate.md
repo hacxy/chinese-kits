@@ -4,18 +4,18 @@
 
 # 函数: getLunarDate()
 
-### 获取指定日期的农历年月日,超过2100年12月31日则返回null
+### 根据公历日期获取农历年月日,超过2100年12月31日则返回null
 
 <a id="undefined" name="undefined"></a>
 
-> **getLunarDate**(`date`, `template`?): `null` \| `string` \| [`LunarDate`](../type-aliases/LunarDate.md)
+> **getLunarDate**(`date`?, `template`?): `null` \| `string` \| [`LunarDate`](../type-aliases/LunarDate.md)
 
 ## 参数
 
 | 参数 | Type | Description |
 | :------ | :------ | :------ |
-| `date` | [`DateType`](../type-aliases/DateType.md) |  |
-| `template`? | `string` | - |
+| `date`? | [`DateType`](../type-aliases/DateType.md) | 公历日期,不传为今天 |
+| `template`? | `string` | 格式化模板,与dayjs保持一致,例如:YYYY-MM-DD |
 
 ## 返回值类型
 
@@ -30,4 +30,4 @@ getLunarDate(new Date('2024-04-21')) // { lunarYear: 2024, lunarMonth: 3, lunarD
 
 ## 查看源码
 
-[lunar/index.ts:36](https://github.com/hacxy/chinese-kits/blob/5c621ab0a6cec1eb5e94454c7b7c22a7620aec4b/src/lunar/index.ts#L36)
+[lunar/index.ts:20](https://github.com/hacxy/chinese-kits/blob/5c621ab0a6cec1eb5e94454c7b7c22a7620aec4b/src/lunar/index.ts#L20)
