@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.1.0](https://github.com/hacxy/chinese-kits/compare/v0.0.1...v0.1.0) (2024-06-24)
+
+
+### 📦 Chores | 其他更新
+
+* update config and docs ([29909c4](https://github.com/hacxy/chinese-kits/commit/29909c4ad8eb6617724f792e718a234cb4c5c5b7))
+
+
+### ✨ Features | 新功能
+
+* 新增方法getTodayDateDiff,用于计算今天农历与公历相差多少天 ([8164037](https://github.com/hacxy/chinese-kits/commit/81640371fe3eda2dd06dfaa6ae4bdc7f399242c2))
+* 新增getDateDiff方法,指定一个公历日期计算出与农历相差多少天 ([5c621ab](https://github.com/hacxy/chinese-kits/commit/5c621ab0a6cec1eb5e94454c7b7c22a7620aec4b))
+* 新增isHolidays方法,判断是否为节假日 ([a178c31](https://github.com/hacxy/chinese-kits/commit/a178c31fd24c25fd32d757bec4b6cd200bee6856))
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* 将冗余的方法合并 ([a334f9a](https://github.com/hacxy/chinese-kits/commit/a334f9a335106e2144c7ec37c5c9d1bd957e0233))
+
 ### [0.0.1](https://github.com/hacxy/chinese-kits/compare/v1.1.2...v0.0.1) (2024-06-21)
 
 ### ⚡ Improvements | 优化
