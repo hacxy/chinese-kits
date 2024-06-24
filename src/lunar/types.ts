@@ -12,3 +12,5 @@ export type LunarDate = {
    */
   lunarDay: number;
 };
+
+export type DateType = Date | string;

@@ -14,7 +14,7 @@
 
 | 参数 | Type | Description |
 | :------ | :------ | :------ |
-| `date` | `Date` |  |
+| `date` | [`DateType`](../type-aliases/DateType.md) |  |
 | `template`? | `string` | - |
 
 ## 返回值类型

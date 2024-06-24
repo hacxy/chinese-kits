@@ -17,10 +17,10 @@
 ## 示例
 
 ```ts
-import { getDateDifference } from 'chinese-kits';
-getDateDifference() // 34
+import { getTodayDateDiff } from 'chinese-kits';
+getTodayDateDiff() // 34
 ```
 
 ## 查看源码
 
-[lunar/index.ts:66](https://github.com/hacxy/chinese-kits/blob/29909c4ad8eb6617724f792e718a234cb4c5c5b7/src/lunar/index.ts#L66)
+[lunar/index.ts:67](https://github.com/hacxy/chinese-kits/blob/29909c4ad8eb6617724f792e718a234cb4c5c5b7/src/lunar/index.ts#L67)

@@ -6,7 +6,12 @@
 
 ## 类型别名
 
+- [DateType](type-aliases/DateType.md)
 - [LunarDate](type-aliases/LunarDate.md)
+
+## 函数
+
+- [getDateDiff](functions/getDateDiff.md)
 
 ## 农历
 

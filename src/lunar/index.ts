@@ -1,4 +1,4 @@
-import { LunarDate } from '@/lunar/types';
+import { DateType, LunarDate } from '@/lunar/types';
 import calendar from 'js-calendar-converter';
 import { isString } from 'tianjie';
 import dayjs from 'dayjs';
@@ -33,10 +33,11 @@ export const getTodayLunarDate = (template?: string) => {
  * getLunarDate(new Date('2024-04-21')) // { lunarYear: 2024, lunarMonth: 3, lunarDay: 13 }
  * ```
  */
-export const getLunarDate = (date: Date, template?: string): LunarDate | string | null => {
-  const year = date.getFullYear();
-  const month = date.getMonth() + 1;
-  const day = date.getDate();
+export const getLunarDate = (date: DateType, template?: string): LunarDate | string | null => {
+  const dateValue = dayjs(date);
+  const year = dateValue.get('year');
+  const month = dateValue.get('M') + 1;
+  const day = dateValue.get('D');
 
   const lunarDate = calendar.solar2lunar(year, month, day);
   if (lunarDate) {
@@ -59,8 +60,8 @@ export const getLunarDate = (date: Date, template?: string): LunarDate | string 
  * @returns
  * @example
  * ```ts
- * import { getDateDifference } from 'chinese-kits';
- * getDateDifference() // 34
+ * import { getTodayDateDiff } from 'chinese-kits';
+ * getTodayDateDiff() // 34
  * ```
  */
 export const getTodayDateDiff = () => {
@@ -70,6 +71,26 @@ export const getTodayDateDiff = () => {
   if (isString(todayLunarDate)) {
     const ldate = dayjs(todayLunarDate);
     const sdate = dayjs(todaySolarDate);
+
+    return sdate.diff(ldate, 'day');
+  } else {
+    return null;
+  }
+};
+
+/**
+ *
+ * @name 输入一个公历日期,计算出与农历相差多少天
+ * @param date
+ * @returns
+ */
+export const getDateDiff = (date: DateType) => {
+  const solarDate = dayjs(date).format('YYYY-MM-DD');
+  const lunarDate = getLunarDate(date, 'YYYY-MM-DD');
+
+  if (isString(lunarDate)) {
+    const ldate = dayjs(lunarDate);
+    const sdate = dayjs(solarDate);
 
     return sdate.diff(ldate, 'day');
   } else {
