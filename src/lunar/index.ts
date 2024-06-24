@@ -82,6 +82,7 @@ export const getTodayDateDiff = () => {
  *
  * @name 输入一个公历日期,计算出与农历相差多少天
  * @param date
+ * @group 农历
  * @returns
  */
 export const getDateDiff = (date: DateType) => {

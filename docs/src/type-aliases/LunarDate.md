@@ -18,4 +18,4 @@
 
 ## 查看源码
 
-[lunar/types.ts:1](https://github.com/hacxy/chinese-kits/blob/29909c4ad8eb6617724f792e718a234cb4c5c5b7/src/lunar/types.ts#L1)
+[lunar/types.ts:1](https://github.com/hacxy/chinese-kits/blob/5c621ab0a6cec1eb5e94454c7b7c22a7620aec4b/src/lunar/types.ts#L1)

@@ -9,12 +9,9 @@
 - [DateType](type-aliases/DateType.md)
 - [LunarDate](type-aliases/LunarDate.md)
 
-## 函数
-
-- [getDateDiff](functions/getDateDiff.md)
-
 ## 农历
 
+- [getDateDiff](functions/getDateDiff.md)
 - [getLunarDate](functions/getLunarDate.md)
 - [getTodayDateDiff](functions/getTodayDateDiff.md)
 - [getTodayLunarDate](functions/getTodayLunarDate.md)
@@ -32,3 +29,7 @@
 
 - [getAllCityAlias](functions/getAllCityAlias.md)
 - [getCityAlias](functions/getCityAlias.md)
+
+## 节假日
+
+- [isHolidays](functions/isHolidays.md)
