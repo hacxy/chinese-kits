@@ -31,3 +31,5 @@
 ## 节假日
 
 - [isHolidays](functions/isHolidays.md)
+- [isInLieuDays](functions/isInLieuDays.md)
+- [isWorkdays](functions/isWorkdays.md)
