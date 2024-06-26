@@ -9,7 +9,7 @@ import { cityData } from '@/constants';
  * import { getCityAbbreviation } from 'chinese-ts';
  * getCityAbbreviation('北京') // 京
  * getCityAbbreviation('Beijing') // 京
- * getCityAbbreviation('Hubei') // 鄂
+ * getCityAbbreviation('hubei') // 鄂
  * ```
  */
 export const getCityAlias = (name: string) => {

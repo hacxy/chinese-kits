@@ -26,9 +26,9 @@
 import { getCityAbbreviation } from 'chinese-ts';
 getCityAbbreviation('北京') // 京
 getCityAbbreviation('Beijing') // 京
-getCityAbbreviation('Hubei') // 鄂
+getCityAbbreviation('hubei') // 鄂
 ```
 
 ## 查看源码
 
-[city/index.ts:15](https://github.com/hacxy/chinese-kits/blob/b96843e817fcae745ac599cf5ae0b57f85bdd872/src/city/index.ts#L15)
+[city/index.ts:15](https://github.com/hacxy/chinese-kits/blob/a681c346e928509daa8553fdd260fd31fe2b30cc/src/city/index.ts#L15)

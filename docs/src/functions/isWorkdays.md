@@ -4,7 +4,7 @@
 
 # 函数: isWorkdays()
 
-### 判断是否为工作日
+### 判断是否为工作日,仅支持2004-2024
 
 <a id="undefined" name="undefined"></a>
 
@@ -22,4 +22,4 @@
 
 ## 查看源码
 
-[days/index.ts:28](https://github.com/hacxy/chinese-kits/blob/b96843e817fcae745ac599cf5ae0b57f85bdd872/src/days/index.ts#L28)
+[days/index.ts:28](https://github.com/hacxy/chinese-kits/blob/a681c346e928509daa8553fdd260fd31fe2b30cc/src/days/index.ts#L28)

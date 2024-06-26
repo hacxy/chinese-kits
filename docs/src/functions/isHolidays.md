@@ -4,7 +4,7 @@
 
 # 函数: isHolidays()
 
-### 判断是否为节假日
+### 判断是否为节假日,仅支持2004-2024
 
 <a id="undefined" name="undefined"></a>
 
@@ -29,4 +29,4 @@ isHolidays()
 
 ## 查看源码
 
-[days/index.ts:16](https://github.com/hacxy/chinese-kits/blob/b96843e817fcae745ac599cf5ae0b57f85bdd872/src/days/index.ts#L16)
+[days/index.ts:16](https://github.com/hacxy/chinese-kits/blob/a681c346e928509daa8553fdd260fd31fe2b30cc/src/days/index.ts#L16)

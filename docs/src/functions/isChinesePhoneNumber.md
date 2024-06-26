@@ -22,4 +22,4 @@
 
 ## 查看源码
 
-[string/index.ts:29](https://github.com/hacxy/chinese-kits/blob/b96843e817fcae745ac599cf5ae0b57f85bdd872/src/string/index.ts#L29)
+[string/index.ts:29](https://github.com/hacxy/chinese-kits/blob/a681c346e928509daa8553fdd260fd31fe2b30cc/src/string/index.ts#L29)
