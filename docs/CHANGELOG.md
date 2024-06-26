@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.2.0](https://github.com/hacxy/chinese-kits/compare/v0.1.0...v0.2.0) (2024-06-26)
+
+
+### ✨ Features | 新功能
+
+* 新增节假日相关方法 ([a681c34](https://github.com/hacxy/chinese-kits/commit/a681c346e928509daa8553fdd260fd31fe2b30cc))
+
+
+### 📝 Documentation | 文档
+
+* update docs ([459fb6c](https://github.com/hacxy/chinese-kits/commit/459fb6cd47bfa41d1607e6453c4c5c62947fd541))
+
 ## [0.1.0](https://github.com/hacxy/chinese-kits/compare/v0.0.1...v0.1.0) (2024-06-24)
 
 
