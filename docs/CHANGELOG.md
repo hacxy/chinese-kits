@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.2.1](https://github.com/hacxy/chinese-kits/compare/v0.2.0...v0.2.1) (2024-07-05)
+
+
+### ✨ Features | 新功能
+
+* 新增sayHello方法 ([8c20c4f](https://github.com/hacxy/chinese-kits/commit/8c20c4fa2b3a60bcd51d7d00eb45e7fd5cbb22af))
+
 ## [0.2.0](https://github.com/hacxy/chinese-kits/compare/v0.1.0...v0.2.0) (2024-06-26)
 
 
