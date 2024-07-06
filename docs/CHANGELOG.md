@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.2.2](https://github.com/hacxy/chinese-kits/compare/v0.2.1...v0.2.2) (2024-07-06)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* 移除无关方法 ([44cbb50](https://github.com/hacxy/chinese-kits/commit/44cbb5026b6428bfc79acda3a601bb0c94d5a5de))
+
 ### [0.2.1](https://github.com/hacxy/chinese-kits/compare/v0.2.0...v0.2.1) (2024-07-05)
 
 
