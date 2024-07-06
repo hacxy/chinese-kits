@@ -30,4 +30,4 @@ getLunarDate(new Date('2024-04-21')) // { lunarYear: 2024, lunarMonth: 3, lunarD
 
 ## 查看源码
 
-[lunar/index.ts:20](https://github.com/hacxy/chinese-kits/blob/a681c346e928509daa8553fdd260fd31fe2b30cc/src/lunar/index.ts#L20)
+[lunar/index.ts:20](https://github.com/hacxy/chinese-kits/blob/5b1794424faad6636f4b4dcee5780ecb7274c1f6/src/lunar/index.ts#L20)

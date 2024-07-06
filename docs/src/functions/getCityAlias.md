@@ -31,4 +31,4 @@ getCityAbbreviation('hubei') // 鄂
 
 ## 查看源码
 
-[city/index.ts:15](https://github.com/hacxy/chinese-kits/blob/a681c346e928509daa8553fdd260fd31fe2b30cc/src/city/index.ts#L15)
+[city/index.ts:15](https://github.com/hacxy/chinese-kits/blob/5b1794424faad6636f4b4dcee5780ecb7274c1f6/src/city/index.ts#L15)

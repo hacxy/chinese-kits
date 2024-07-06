@@ -42,7 +42,3 @@ export const isInLieuDays = (date: DateType) => {
   const dayKeys = Object.keys(inLieuDays);
   return dayKeys.includes(finalDate);
 };
-
-export const sayHello = () => {
-  console.log('hello');
-};

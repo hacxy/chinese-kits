@@ -29,4 +29,4 @@ isHolidays()
 
 ## 查看源码
 
-[days/index.ts:16](https://github.com/hacxy/chinese-kits/blob/a681c346e928509daa8553fdd260fd31fe2b30cc/src/days/index.ts#L16)
+[days/index.ts:16](https://github.com/hacxy/chinese-kits/blob/5b1794424faad6636f4b4dcee5780ecb7274c1f6/src/days/index.ts#L16)

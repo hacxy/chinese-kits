@@ -9,6 +9,10 @@
 - [DateType](type-aliases/DateType.md)
 - [LunarDate](type-aliases/LunarDate.md)
 
+## 函数
+
+- [sayHello](functions/sayHello.md)
+
 ## 农历
 
 - [getDateDiff](functions/getDateDiff.md)
